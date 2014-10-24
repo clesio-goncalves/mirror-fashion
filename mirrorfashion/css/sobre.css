@@ -1,0 +1,91 @@
+body {
+	color: #333333;
+	font-family: "PT Sans", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+article h1 {
+	background-image: url(../img/sobre-background.jpg);
+	padding: 10px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+h2 {
+	border-bottom: 2px solid #333333;
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+section ul li {
+	list-style-type: disc;
+	list-style-position: inside;
+	
+	padding: 3px 45px;
+	line-height: 1.2em;
+	text-align: justify;
+	border: 10px;
+}
+
+figure {
+	background-color: #F2EDED;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 15px;
+	margin: 30px;
+}
+
+#centro-distribuicao {
+	margin-left: auto;
+	margin-right: auto;
+	width: 59%;
+}
+
+#centro-distribuicao img {
+	width: 100%;
+}
+
+#familia-pelho {
+	float: right;
+	margin: 10px 0 10px 10px;
+}
+
+figcaption {
+	font-style: italic;
+	margin-top: 10px;
+}
+
+p {
+	padding: 10px 45px;
+	line-height: 1.2em;
+	text-indent: 15px;
+	text-align: justify;
+}
+
+p:first-letter {
+	font-weight: bold;
+}
+
+h1 + p {
+	text-indent: 0; 
+}
+
+:not(p) + p:first-line {
+	font-variant: small-caps;
+};
+
+/*
+
+	#rodape {
+		color: #777;
+		margin: 30px 0;
+		padding: 30px 0;
+	}
+
+	#rodape img {
+		margin-right: 30px;
+		vertical-align: middle;
+		width: 94px;
+	} 
+
+*/
